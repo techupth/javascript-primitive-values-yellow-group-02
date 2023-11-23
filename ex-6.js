@@ -5,8 +5,8 @@ let totalParts = 13000;
 let concatSentence;
 let literalSentence;
 
-concatSentence = '"Total: ' + totalParts + ' Machine parts"';
-literalSentence = `"Total: ${totalParts} Machine parts"`;
+concatSentence = 'Total: ' + totalParts + ' Machine parts';
+literalSentence = `Total: ${totalParts} Machine parts`;
 
 console.log(concatSentence);
 console.log(literalSentence);

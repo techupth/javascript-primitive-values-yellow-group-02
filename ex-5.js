@@ -4,5 +4,5 @@
 let priceProduct = 27000;
 let discountProduct = 25;
 
-let priceAfterDiscount = (priceProduct*(100-discountProduct)) / 100;
+let priceAfterDiscount = priceProduct-(priceProduct*(discountProduct)) / 100;
 console.log(priceAfterDiscount); 
