@@ -2,5 +2,5 @@
 
 // Start coding here
 let totalPrice = 27000;
-let discount = 25 / 100;
+let discount = 1 / 4;
 let discountPrice = totalPrice - totalPrice * discount;
